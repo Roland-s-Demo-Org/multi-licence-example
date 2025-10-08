@@ -60,6 +60,7 @@
   },
   "overrides": {
     "cross-spawn": ">=7.0.5",
-    "@octokit/request-error@5.0.1": "5.1.1"
+    "@octokit/request-error@5.0.1": "5.1.1",
+    "undici@<=5.29.0": "5.29.0"
   }
 }

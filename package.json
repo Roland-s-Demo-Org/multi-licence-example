@@ -25,7 +25,7 @@
   "author": "GitHub",
   "license": "MIT",
   "dependencies": {
-    "@actions/core": "^1.10.1",
+    "@actions/core": "^1.11.0",
     "@actions/github": "^6.0.0",
     "@octokit/plugin-retry": "^6.1.0",
     "@octokit/request-error": "^5.1.1",
@@ -38,8 +38,8 @@
     "spdx-expression-parse": "^3.0.1",
     "spdx-satisfies": "^6.0.0",
     "ts-jest": "^29.2.5",
-    "yaml": "^2.3.4",
-    "zod": "^3.24.1"
+    "yaml": "^2.8.3",
+    "zod": "^4.5.0"
   },
   "devDependencies": {
     "@types/jest": "^29.5.12",
@@ -60,6 +60,7 @@
   },
   "overrides": {
     "cross-spawn": ">=7.0.5",
-    "@octokit/request-error@5.0.1": "5.1.1"
+    "@octokit/request-error@5.0.1": "5.1.1",
+    "undici@<7.29.0": "7.29.0"
   }
 }
